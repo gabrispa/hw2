@@ -1,0 +1,163 @@
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:0;
+}
+
+h1{
+    font-family: 'Belleza', sans-serif;  
+    font-size: 2.5em;
+    margin: 10px;
+    font-weight: lighter;
+    text-align: center;
+}
+#create-post-block{
+    background-color: white;
+    height: 70%;
+    width: 70%;
+    
+    z-index: 1;
+    border-radius: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+
+    font-style: normal;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+#back{
+    
+    border-radius: 50%;
+    border: none;
+    color: white;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(10, 100, 136);
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    font-size: 3em;
+    text-align: center;
+    
+}
+
+#back:hover{
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+
+
+#add-text{
+    width: 40%;
+  
+}
+
+#upload-form{
+    display: flex;
+    flex-direction: row;
+}
+
+textarea{
+    resize: none;
+    font-family: 'Belleza', sans-serif;  
+    width: 100%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#send-post{
+    font-family: 'Belleza', sans-serif;
+    background-color: rgb(10, 100, 136);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    width: 105%;
+    text-align: center;
+
+}
+
+#search-gif-button{
+    font-family: 'Belleza', sans-serif;
+    background-color: rgb(10, 100, 136);
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 1.25em;
+    border-radius: 10px;
+    
+    text-align: center;
+}
+
+#send-post:hover, #search-gif-button:hover{
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+
+input[type='file'] {
+    color: rgba(0, 0, 0, 0);
+    
+    margin-left: 40%;
+    
+    font-family: 'Belleza', sans-serif;
+    font-size: 1em;
+}
+
+.button-after-display{
+    position: absolute;
+    bottom: 0;
+}
+
+.searchbar-after-display{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+
+#add-photo{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    width: 60%;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.image-displayed, .gif-displayed{
+    max-height: 70%;
+    display: block;
+    width: 90%;
+    padding-right: 20px; 
+    margin-top: 20px;
+    object-fit:contain;
+    position: absolute;
+    top: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+#search-gif{
+    margin:0 auto;
+}
+
+#search-gif-entry{
+    border-radius: 20px;
+    font-size: 1em;
+    font-family: 'Belleza', sans-serif;
+}
+

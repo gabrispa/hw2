@@ -1,0 +1,42 @@
+.hidden{
+    display: none !important;
+}
+
+#search-user-section{
+    width: 70%;
+    margin: auto;
+}
+
+#search-user-section h2{
+    font-size: 3em;
+    font-family: 'Belleza', sans-serif;
+    font-weight: normal;
+}
+
+#search-user-form{
+    width: 100%;
+}
+
+#user-to-find{
+    width: 100%;
+    border-radius: 20px;
+    font-size: 1.5em;
+    font-family: 'Belleza', sans-serif;
+}
+
+#search{
+    font-family: 'Belleza', sans-serif;
+    background-color: rgb(10, 100, 136);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.25em;
+    border-radius: 20px;
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+#search:hover{
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
